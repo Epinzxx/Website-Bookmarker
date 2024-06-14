@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Bookmark</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header><h2>Bookmarker</h2></header>
+      <form id="form">
+        <h2>Bookmark Your Favorite Sites</h2>
+        <div class="site-input">
+          <label for="name">Site Name</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Website Name"
+            class="text-input"
+          />
+        </div>
+        <div class="site-input">
+          <label for="url">Site URL</label>
+          <input
+            type="text"
+            id="url"
+            placeholder="Website URL"
+            class="text-input"
+          />
+        </div>
+        <button id="submit-btn">Submit</button>
+      </form>
+      <div id="saved-sites"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
